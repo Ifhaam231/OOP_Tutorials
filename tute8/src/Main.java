@@ -43,11 +43,6 @@ public class Main {
         JButton Period = new JButton(".");
         NumberPanel.add(Period);
 
-
-        //MainPanel.add(new JButton("poopw"),BorderLayout.WEST);
-
-
-
         CalculatorFrame.add(MainPanel);
         CalculatorFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         CalculatorFrame.setVisible(true);
